@@ -2,14 +2,67 @@
     box-sizing: border-box;
   }
 
+body {
+    background-image: url("../images/pinkfence.jpg");
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    font-family: 'Poiret One', sans-serif;
+    font-size: 115%;
+}
+
+.navbar-brand {
+    font-size: 150%;
+}
+
 .navbar {
-    background: #0B6558;
+    background: #255A59;
+    margin-bottom: 5%;
 }
 
 a:hover {
     color:#FFE8FF !important;
 }
 
-.wrapper {
+.container {
     width: 100%;
+}
+
+.titleDiv {
+    background-color: white;
+    z-index: 1;
+    font-weight: bold;
+    padding: 5%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    margin-bottom: 5%;
+    margin-top: 15%;
+}
+
+.skills {
+    font-size: 110%;
+}
+
+.photoDiv {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.profilePic {
+    width: 60%;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+    border-bottom-width: 60px;
+}
+
+.aboutDiv {
+    background-color: white;
+    z-index: 1;
+    padding: 5%;
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+
 }
