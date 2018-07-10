@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+
+.navbar {
+    background: #0B6558;
+}
+
+a:hover {
+    color:#FFE8FF !important;
+}
+
+.wrapper {
+    width: 100%;
+}
