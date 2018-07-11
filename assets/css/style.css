@@ -3,24 +3,28 @@
   }
 
 body {
-    background-image: url("../images/pinkfence.jpg");
-    background-size: 100%;
-    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
     font-family: 'Poiret One', sans-serif;
-    font-size: 115%;
+    font-size: 140%;
 }
 
 .navbar-brand {
-    font-size: 150%;
+    font-size: 160%;
 }
 
 .navbar {
     background: #255A59;
-    margin-bottom: 5%;
 }
 
 a:hover {
     color:#FFE8FF !important;
+}
+
+.bg-primary {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: url("../images/pinkbricks.jpg") !important;
+    background-size: 100%;
 }
 
 .container {
@@ -36,7 +40,6 @@ a:hover {
     border-color: black;
     border-width: thick;
     margin-bottom: 5%;
-    margin-top: 15%;
 }
 
 .skills {
@@ -56,13 +59,32 @@ a:hover {
     border-bottom-width: 60px;
 }
 
-.aboutDiv {
-    background-color: white;
-    z-index: 1;
-    padding: 5%;
-    font-weight: bold;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
+.bg-secondary {
+    background-color: #255A59 !important;
+}
 
+.aboutSection {
+    text-align: center;
+    color: white;
+    padding-top:1%;
+    padding-bottom: 2%;
+}
+
+.aboutParagraph {
+    text-align: left;
+    color: white;
+}
+
+.phoebe {
+    width: 75%;
+    border-style: solid;
+    border-color: white;
+    border-width: 12px;
+    border-bottom-width: 50px;
+}
+
+.portfolio {
+    color:  #255A59 !important;
+    text-align: center;
+    padding-top: 1%;
 }
