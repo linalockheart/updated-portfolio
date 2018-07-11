@@ -87,4 +87,52 @@ a:hover {
     color:  #255A59 !important;
     text-align: center;
     padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.thumbnailWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.imgMod {
+    width: 100%;
+    height: 100%;
+    padding: 2%;;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    margin: 1%;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.bg-info{
+    background-color: #F4D9E7 !important;
+}
+
+button {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    background-color: #F4D9E7 ;
+    border-color: black;
+    padding-bottom:7px;;
+}
+
+button:hover {
+    background-color: black;
+    color: #F4D9E7;
+}
+
+.footer {
+    text-align: center;
+    background-color: #255A59;
+    color: white;
+    font-size: 70%;
+    padding: 1%;
 }
