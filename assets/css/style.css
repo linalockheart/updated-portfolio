@@ -5,20 +5,15 @@
 body {
     font-family: 'Poiret One', sans-serif;
     font-size: 140%;
-    /* background-image: url("../images/watermelon-beach.jpeg") !important; */
 }
 
-.navbar-brand {
-    font-size: 160%;
+.navBorder:hover {
+    background-color: black;
+    color: #F4D9E7;
+    padding: 2%;
+    border-radius: 5px;
 }
 
-.navbar {
-    background:transparent;
-}
-
-a:hover {
-    color:#FFE8FF !important;
-}
 
 .bg-primary {
     padding-top: 0%;
@@ -29,9 +24,13 @@ a:hover {
     background-position: left top;
 }
 
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+}
+
 .verticalNav {
     text-align: right;
-    font-weight: bold;
 }
 
 .container {
@@ -133,7 +132,7 @@ button {
     margin-bottom: 1%;
     background-color: #F4D9E7 ;
     border-color: black;
-    padding-bottom:7px;;
+    padding-bottom:7px;
 }
 
 button:hover {
