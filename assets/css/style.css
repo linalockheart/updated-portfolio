@@ -27,6 +27,10 @@ body {
     font-size: 200%;
 }
 
+.navbar {
+
+}
+
 .navBorder:hover {
     background-color: black;
     color: #F4D9E7;
@@ -39,9 +43,9 @@ body {
     font-weight: bold;
 }
 
-.verticalNav {
+/* .verticalNav {
     text-align: right;
-}
+} */
 
 .container {
     width: auto;
