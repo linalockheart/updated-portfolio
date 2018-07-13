@@ -7,10 +7,18 @@ body {
     font-size: 140%;
 }
 
+.bg-primary {
+    padding-top: 0%;
+    padding-bottom: 50%;
+    background-image: url("../images/watermelon-beach.jpeg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
 .introDiv {
-    padding-left: 1%;
-    padding-top: 3%;
-    text-align: center;
+    padding-left: 3%;
+    text-align: left;
     font-weight: bold;
 }
 
@@ -26,15 +34,6 @@ body {
     border-radius: 5px;
 }
 
-.bg-primary {
-    padding-top: 0%;
-    padding-bottom: 50%;
-    background-image: url("../images/watermelon-beach.jpeg") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-
 .nav-link {
     color: black !important;
     font-weight: bold;
@@ -46,7 +45,7 @@ body {
 
 .container {
     width: auto;
-    margin-right: 10%;;
+    /* margin-right: 10%;; */
     margin-top: 10%;
 }
 
