@@ -9,104 +9,91 @@ body {
 
 .bg-primary {
     padding-top: 0%;
-    padding-bottom: 50%;
     background-image: url("../images/watermelon-beach.jpeg") !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
 }
 
-.introDiv {
-    padding-left: 3%;
-    text-align: left;
-    font-weight: bold;
-}
-
-.name {
-    font-weight: bold;
-    font-size: 200%;
-}
-
-.navbar {
-
+.navPosition {
+    padding-bottom: 11%;;
 }
 
 .navBorder:hover {
     background-color: black;
-    color: #F4D9E7;
+    color: #A5CFC9;
     padding: 2%;
     border-radius: 5px;
+    padding-bottom:7%;
 }
 
 .nav-link {
     color: black !important;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 125%;
 }
-
-/* .verticalNav {
-    text-align: right;
-} */
 
 .container {
     width: auto;
-    /* margin-right: 10%;; */
-    margin-top: 10%;
 }
 
-.titleDiv {
-    background-color: white;
-    z-index: 1;
+.introDiv {
+    padding-left: 3%;
+    /* padding-top: 5%; */
+    padding-bottom: 5%;
+    text-align: left;
     font-weight: bold;
-    padding: 5%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
-    margin-bottom: 5%;
 }
+
+
+.name {
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+.profession {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
 
 .skills {
-    font-size: 110%;
+    font-size: 155%;
+    font-weight: bolder;
 }
 
-/* .photoDiv {
+.photoDiv {
     text-align: center;
-    margin-bottom: 5%;
 }
 
 .profilePic {
-    width: 60%;
+    width: 50%;
     border-style: solid;
     border-color: white;
     border-width: 15px;
     border-bottom-width: 60px;
-} */
+}
 
 .bg-secondary {
-    background-color: #255A59 !important;
+    background-color:#E1695C !important;
 }
 
 .aboutSection {
     text-align: center;
-    color: white;
-    padding-top:1%;
-    padding-bottom: 2%;
+    color: black;
+    padding-bottom: 4%;
+    padding-top: 1%;
 }
 
 .aboutParagraph {
     text-align: left;
-    color: white;
-}
-
-.phoebe {
-    width: 75%;
-    border-style: solid;
-    border-color: white;
-    border-width: 12px;
-    border-bottom-width: 50px;
+    color:black;
+    font-weight:bolder;
+    font-size: 150%;
 }
 
 .portfolio {
-    color:  #255A59 !important;
+    color:  black !important;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 5%;
@@ -137,26 +124,26 @@ body {
 }
 
 .bg-info{
-    background-color: #F4D9E7 !important;
+    background-color: #A5CFC9 !important;
 }
 
 button {
     border-radius: 5px;
     margin-bottom: 1%;
-    background-color: #F4D9E7 ;
+    background-color: #A5CFC9;
     border-color: black;
     padding-bottom:7px;
 }
 
 button:hover {
     background-color: black;
-    color: #F4D9E7;
+    color: #A5CFC9;
 }
 
 .footer {
     text-align: center;
-    background-color: #255A59;
-    color: white;
+    background-color:#5174BF;
+    color:black;
     font-size: 70%;
     padding: 1%;
 }
