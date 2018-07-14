@@ -13,21 +13,27 @@
 
 <body>
 
+<div id="top">
+</div>
+
 <header class="masthead bg-primary text-black text-left">
     <div class="row">
           <div class="col-lg-12 navPosition">
             <nav class="navbar fixed-top justify-content-end">
               <ul class="nav nav-bar">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#"><strong class="navBorder">about</strong></a>
+                  <a class="nav-link active" href="#top"><strong class="navBorder">home</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#aboutSection"><strong class="navBorder">about</strong></a>
                 </li>
                 <br>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><strong class="navBorder">portfolio</strong></a>
+                  <a class="nav-link" href="#portfolioSection"><strong class="navBorder">portfolio</strong></a>
                 </li>
                 <br>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><strong class="navBorder">contact</strong></a>
+                  <a class="nav-link" href="#contactSection"><strong class="navBorder">contact</strong></a>
                 </li>
               </ul>
             </nav>
@@ -78,11 +84,10 @@
       </div>
       <div class="col-md-2">
       </div>
-      <div class="col-sm-1"></div>
   </div>
 </section>
 
-<section class="portfolio bg-white">
+<section class="portfolio bg-white" id="portfolioSection">
   <div class="container">
     <h1><strong>portfolio</strong></h1>
       <h2>&hearts;</h2>
@@ -91,25 +96,47 @@
 
     <div class="row">
         <div class="col-md-4">
-          <img class="img-fluid imgMod" src="assets/images/bandana.png" alt="bandana">
-        </div>
+            <div class="imgContainer">
+              <img class="img-fluid imgMod bandana" src="assets/images/bandana.png" alt="bandana">
+              <a class="projectName" href="Project1/index.html"><p>Bandana App</p></a>
+            </div>
+      </div>
+
         <div class="col-md-4">
-          <img class="img-fluid imgMod" src="assets/images/gifgenerator.png" alt="gif generator">
+          <div class="imgContainer">
+            <img class="img-fluid imgMod" src="assets/images/gifgenerator.png" alt="gif generator">
+            <a class="projectName" href="GIF-Generator/index.html"><p>Gif Generator</p></a>
+            </div>
         </div>
+
+
         <div class="col-md-4">
+          <div class="imgContainer">
             <img class="img-fluid imgMod" src="assets/images/crystalcollector.png" alt="crystal collector">
+            <a class="projectName" href="unit-4-game/index.html"><p>Crystal Collector</p></a>
+            </div>
         </div>
-    </div>
-<br>
+    
+      </div>
+    <br>
     <div class="row">
         <div class="col-md-4">
-          <img class="img-fluid imgMod" src="assets/images/trainscheduler.png" alt="train scheduler">
+            <div class="imgContainer">
+              <img class="img-fluid imgMod" src="assets/images/trainscheduler.png" alt="train scheduler">
+              <a class="projectName" href="Train-Scheduler/index.html"><p>Train Scheduler</p></a>
+            </div>
         </div>
         <div class="col-md-4">
-          <img class="img-fluid imgMod" src="assets/images/wordguess.png" alt="word guess game">
+          <div class="imgContainer">
+            <img class="img-fluid imgMod" src="assets/images/wordguess.png" alt="word guess game">
+            <a class="projectName" href="Word-Guess-Game/index.html"><p>Word Guess</p></a>
+          </div>
         </div>
         <div class="col-md-4">
+          <div class="imgContainer">
             <img class="img-fluid imgMod" src="assets/images/crystalcollector.png" alt="TBD">
+            <a class="projectName" href="#"><p>TBD</p></a>
+          </div>
         </div>
     </div>
 
@@ -117,7 +144,7 @@
   </div>
 </section>
 
-<section class="contact bg-info">
+<section class="contact bg-info" id="contactSection">
   <div class="container">
     <h1><strong>contact me</strong></h1>
       <h2>&hearts;</h2>
