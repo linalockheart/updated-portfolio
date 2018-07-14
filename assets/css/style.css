@@ -119,10 +119,6 @@ body {
     text-align: center;
 }
 
-.imgMod:hover {
-    background: black;
-}
-
 .imgMod {
     width: 100%;
     height: 100%;
